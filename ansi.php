@@ -3,9 +3,7 @@
 /**
  * Alpha Numeric Sequential Incrementor 1.0
  * https://github.com/gitlibrary/ansi
- *
- * Copyright 2014, GitAll
- * https://github.com/gitall
+ * Copyright 2014, GitLibrary
  *
  * Licensed under the MIT license:
  * http://www.opensource.org/licenses/MIT
