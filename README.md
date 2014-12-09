@@ -17,7 +17,16 @@ New String - 10000000000000000
 Old String - edwaeqweq31321eae2131ea19
 New String - edwaeqweq31321eae2131ea1a
 ```
-String Case will not be changed.
+If a string or a part of string contains uppercase, lowercase or both. It will going to increment last character
+of string in the same case as it is provided in the input string & it will not effect rest of the string case.
+This following string contains both upper & lower cases. String has been increment in the same order,
+case(upper & lower case of string remains as it is provided) & last character 'G' has been successfully increment
+into the expected character 'H' without losing the character case had been provided in input string like this:
+
+```
+Old String - rweQW324eq321CDG
+New String - rweQW324eq321CDH
+```
 
 If string contains special characters or any other characters then return output will an invalid string:
 
