@@ -18,7 +18,8 @@ class ANSI {
    */
   private static function __isValidString($string) {
 
-    // Expected string length has to be less than 30
+    // Expected string length should not exceed as defined in a named constant 'ansiLimit'
+    // ansiLimit is defined in code file before including of ansi.php file
     if(strlen($string) > ansiLimit) { return FALSE; }
 
     // String must only contain alphabats & integers
