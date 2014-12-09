@@ -46,6 +46,7 @@ require_once('ansi.php');
 Create an object of class ANSI. Then call method __getString() & display sequential incremented string like this:
 
 ```
+$string = 'asdaW31RG2B3q';
 $ansi = new ANSI();
-echo $ansi->__getString($v);
+echo $ansi->__getString($string);
 ```
