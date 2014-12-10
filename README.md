@@ -36,10 +36,10 @@ Fatal error: Uncaught exception 'Exception' with message 'String must only conta
 ```
 
 ### How to use this
-Add 'stringsequence.php' file
+Add 'ssi.php' file
 
 ```
-require_once('stringsequence.php');
+require_once('ssi.php');
 ```
 
 Call method StringSequence::Incrementor() & display sequential incremented string like this:

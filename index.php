@@ -1,6 +1,6 @@
 <?php
 
-	require_once('stringsequence.php');
+	require_once('ssi.php');
 
 	// values for testing
 	$test = array(

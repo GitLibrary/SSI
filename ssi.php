@@ -17,8 +17,7 @@ class StringSequence {
    */
   private static function isValidString($string) {
 
-    // Expected string length should not exceed as defined in a named constant 'ansiLimit'
-    // ansiLimit is defined in code file before including of ansi.php file
+    // ssiLimit is defined as maximun string length allowed for incrementing
     if(strlen($string) > self::$ansiLimit) { return FALSE; }
 
     // String must only contain alphabats & integers
