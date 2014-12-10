@@ -1,5 +1,5 @@
 ### Alpha Numeric Sequential Incrementor
-ANSI is an PHP based library which provides a sequential increment in an alpha numeric string order like this:
+ANSI is a PHP based library which provides a sequential increment in an alpha numeric string order like this:
 
 ```
 Old String - ZZZ
