@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Alpha Numeric Sequential Incrementor 1.0
+ * Alpha Numeric Sequential Incrementor v1.0
  * https://github.com/gitlibrary/ansi
  * Copyright 2014, GitLibrary
  *
