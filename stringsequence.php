@@ -2,7 +2,7 @@
 
 /**
  * String Sequence Incrementor v1.0
- * https://github.com/gitlibrary/ansi
+ * https://github.com/gitlibrary/ssi
  *
  * Licensed under the MIT license:
  * http://www.opensource.org/licenses/MIT
