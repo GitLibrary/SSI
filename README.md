@@ -42,7 +42,7 @@ Simply add ansi.php file  into your code:
 require_once('ansi.php');
 ```
 
-Create an object of class ANSI. Then call method __getString() & display sequential incremented string like this:
+Create an object of class ANSI. Then call method StringSequence::increment($string) & display sequential incremented string like this:
 
 ```
 $string = 'asdaW31RG2B3q';
