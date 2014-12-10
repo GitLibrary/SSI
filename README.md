@@ -46,5 +46,5 @@ Call method StringSequence::Incrementor() & display sequential incremented strin
 
 ```
 $string = 'asdaW31RG2B3q';
-echo StringSequence::Incrementor($string);
+echo 'Output - ' . StringSequence::Incrementor($string);  // Output - asdaW31RG2B3r
 ```
