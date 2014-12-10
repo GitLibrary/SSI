@@ -1,5 +1,5 @@
-### Alpha Numeric Sequential Incrementor
-ANSI is a PHP based library which provides a sequential increment in an alpha numeric string order like this:
+### String Sequence Incrementor 'SSI'
+SSI is a PHP based library which provides a sequential increment in an alpha numeric string order like this:
 
 ```
 Old String - ZZZ
@@ -28,23 +28,23 @@ Old String - rweQW324eq321CDG
 New String - rweQW324eq321CDH
 ```
 
-If string contains special characters or any other characters then return output will an invalid string:
+If string contains special characters or any other characters then it will throw new Exception :
 
 ```
 Old String - fdsad3!###
-New String - Invalid String
+Fatal error: Uncaught exception 'Exception' with message 'String must only contain alphabats or integers'
 ```
 
 ### How to use this
-Simply add ansi.php file  into your code:
+Add stringsequence.php file & define ansiLimit into your code:
 
 ```
-require_once('ansi.php');
+require_once('stringsequence.php');
 ```
 
-Create an object of class ANSI. Then call method StringSequence::increment($string) & display sequential incremented string like this:
+Call method StringSequence::Incrementor() & display sequential incremented string like this:
 
 ```
 $string = 'asdaW31RG2B3q';
-echo 'Output - ' .StringSequence::increment($string);  // Output - asdaW31RG2B3r
+echo StringSequence::Incrementor($string);
 ```
