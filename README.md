@@ -36,7 +36,7 @@ Fatal error: Uncaught exception 'Exception' with message 'String must only conta
 ```
 
 ### How to use this
-Add stringsequence.php file & define ansiLimit into your code:
+Add 'stringsequence.php' file
 
 ```
 require_once('stringsequence.php');
