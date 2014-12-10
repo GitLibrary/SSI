@@ -36,17 +36,15 @@ New String - Invalid String
 ```
 
 ### How to use this
-Simply add ansi.php file & define ansiLimit into your code:
+Simply add ansi.php file  into your code:
 
 ```
-define('ansiLimit', 30);
 require_once('ansi.php');
 ```
 
-Create an object of class ANSI. Then call method __getString() & display sequential incremented string like this:
+Create an object of class ANSI. Then call method StringSequence::increment($string) & display sequential incremented string like this:
 
 ```
 $string = 'asdaW31RG2B3q';
-$ansi = new ANSI();
-echo 'Output - ' . $ansi->__getString($string);  // Output - asdaW31RG2B3r
+echo 'Output - ' .StringSequence::increment($string);  // Output - asdaW31RG2B3r
 ```
