@@ -48,5 +48,5 @@ Create an object of class ANSI. Then call method __getString() & display sequent
 ```
 $string = 'asdaW31RG2B3q';
 $ansi = new ANSI();
-echo $ansi->__getString($string);
+echo 'Output - ' . $ansi->__getString($string);  // Output - asdaW31RG2B3r
 ```
