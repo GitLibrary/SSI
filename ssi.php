@@ -10,7 +10,7 @@
 
 class StringSequence {
 
-  private static $ansiLimit = 30;
+  private static $ssiLimit = 30;
 
   /**
    * Validate String
@@ -18,7 +18,7 @@ class StringSequence {
   private static function isValidString($string) {
 
     // ssiLimit is defined as maximun string length allowed for incrementing
-    if(strlen($string) > self::$ansiLimit) { return FALSE; }
+    if(strlen($string) > self::$ssiLimit) { return FALSE; }
 
     // String must only contain alphabats & integers
     if(!ctype_alnum($string)) { return FALSE; }
