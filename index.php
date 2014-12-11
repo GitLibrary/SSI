@@ -5,7 +5,7 @@
 	// values for testing
 	$test = array(
 			'ZZZ','   1000','DASD231DASDA12Z','000000000000000','zzzzzzzzzzzzzzzz','edwaeqweq31321eae2131ea19',
-			'rweQW324eq321CDG','fdsad3!###'
+			'rweQW324eq321CDG'
 			);
 
 	foreach ($test as $v) {
