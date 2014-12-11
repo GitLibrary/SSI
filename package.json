@@ -1,0 +1,17 @@
+{
+  "name": "String Sequence Incrementor",
+  "version": "1.0.0",
+  "description": "Incrementing the order of alpha numeric string",
+  "main": "ssi.php",
+  "repository": {
+  "type": "git",
+  "url": "https://github.com/gitlibrary/ssi"
+  },
+  "keywords": [ "string", "sequence", "incrementor" ],
+  "author": "gitall",
+  "license": "MIT",
+  "bugs": {
+  "url": "https://github.com/gitlibrary/ssi/issues"
+  },
+  "homepage": "https://github.com/gitlibrary/ssi"
+}
