@@ -1,0 +1,12 @@
+{
+  "name": "ssi",
+  "description": "String Sequence Incrementor",
+  "keywords": ["string", "sequence", "incrementor"],
+  "license": "MIT",
+  "authors": {
+      "name": "Git All",
+  },
+  "require": {
+    "php": ">=5.4.0"
+  }
+}
